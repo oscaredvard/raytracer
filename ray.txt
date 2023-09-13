@@ -1,0 +1,11 @@
+P(t) = A + tb
+
+P = 3D position in space
+
+A = Ray origin
+
+b = Ray direction
+
+t = Ray parameter
+
+If you put in different t (double) you get different point along theray (line)
