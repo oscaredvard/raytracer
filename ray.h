@@ -8,7 +8,7 @@ class ray {
         // Contructors
         ray() {}
 
-        ray(const point3& origin, const vec3& direction) : orig(origin), dir(direction {}
+        ray(const point3& origin, const vec3& direction) : orig(origin), dir(direction) {}
 
         // Getters
         point3 origin() const { return orig; }
@@ -20,9 +20,9 @@ class ray {
         }
 
     private:
-       // Attributes
-       point3 orig;
-       vec3 dir;
+        // Attributes
+        point3 orig;
+        vec3 dir;
 }; 
 
 #endif
